@@ -35,7 +35,7 @@ defmodule Phoenix.LiveEditable.MixProject do
 
   defp deps do
     [
-      {:phoenix, "~> 1.7.0-rc.0", override: true},
+      {:phoenix, "~> 1.7"},
       {:ex_doc, "~> 0.29", only: :dev, runtime: false},
       {:phoenix_pubsub, "~> 2.1"},
       {:phoenix_html, "~> 3.2"},
